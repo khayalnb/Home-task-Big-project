@@ -77,7 +77,6 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 .navigation-left>img{
     width: 50px;
     margin-right: 10px;
-
 }
 .navigation-left>h1{
     margin-right: 25px;
@@ -420,4 +419,67 @@ margin-bottom: 20px;
 .abouts:nth-child(2){
     margin-left: 50px ;
     margin-right:50px ;
+}
+#contact{
+    color:white ;
+    padding: 1rem;
+    background-color:white;
+    transform: translateY(10%);
+    border-radius: 50px;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-group>input,textarea{
+    border:2px solid #A5672C;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+   
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem ;
+    color:#A5672C ;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+    color: rgb(64, 192, 224);
+}
+.text-center{
+    text-align: center;
+}
+.heading-medium {
+    font-size: 1.5rem;
+}
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-top: 1.25rem;
+    margin-left:200px;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    color: rgb(245, 248, 245);
+    background:#A5672C ;
+}
+.btn-block{
+    width: 40%;
 }
