@@ -462,6 +462,7 @@ margin-bottom: 20px;
 }
 .form-group{
     padding: 0.25rem 0;
+    margin-top: 20px;
 }
 .form-control{
     width: 100%;
@@ -479,6 +480,8 @@ margin-bottom: 20px;
     letter-spacing: 0.5px;
     color: rgb(245, 248, 245);
     background:#A5672C ;
+    cursor: pointer;
+    border: none;
 }
 .btn-block{
     width: 40%;
